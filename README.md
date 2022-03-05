@@ -54,7 +54,7 @@
 
 <br>
 
-## 🌳 Branch / PR / Issue 규칙
+## 🌳Branch / PR / Issue 규칙
 
 ### Branch
 
