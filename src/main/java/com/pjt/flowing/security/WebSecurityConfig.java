@@ -16,7 +16,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 //                .anyRequest().authenticated() // 로그인 개발후에 인증,인가 가능하게 해야함
                 .anyRequest().permitAll()
                 .and()
-// 로그인 기능 허용
+// 로그인 기능 허용 //
                 .formLogin()
                 .defaultSuccessUrl("/")
                 .permitAll()
