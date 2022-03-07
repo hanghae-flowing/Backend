@@ -12,7 +12,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
 
         http.authorizeRequests()
-// 어떤 요청이든 '인증'
+// 어떤 요청이든 '인증' //
 //                .anyRequest().authenticated() // 로그인 개발후에 인증,인가 가능하게 해야함
                 .anyRequest().permitAll()
                 .and()
